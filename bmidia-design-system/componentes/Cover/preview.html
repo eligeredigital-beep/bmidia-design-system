@@ -1,0 +1,34 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../tokens.css">
+<style>
+html,body{margin:0;background:var(--cream)}
+.cover{position:relative;width:960px;height:288px;overflow:hidden;background:var(--cream)}
+svg{position:absolute;left:0;top:0}
+.brown{fill:var(--brown)} .olive{fill:var(--olive)} .deep{fill:var(--verde-profundo)} .gold{fill:var(--linho)} .beige{fill:var(--beige)}
+.arch{fill:none;stroke:var(--cream);stroke-width:16px;stroke-linecap:butt}
+.txt{position:absolute;left:48px;bottom:40px;max-width:440px}
+.name{font:300 88px/.95 var(--font-marca);color:var(--grafite);margin:0}
+.name i{font-style:normal;font-weight:600;color:var(--brown)}
+.tag{margin:16px 0 0;font:400 13.5px/1.4 var(--font-body);color:var(--brown-text)}
+</style></head><body>
+<div class="cover">
+<svg width="960" height="288" viewBox="0 0 960 288" aria-hidden="true">
+  <!-- blocks: brown 264×288 (slab), olive 216×152, verde-profundo 120×136, linho 96×64, beige 96×72 — space-* multiples, radius 0 (radius-block)
+       arrangement: one tall brown slab bleeding top and bottom with a modular cluster bleeding right, as the carousel splits 50/50
+       pattern: literal motif row — the arched "m" of the Bmidia wordmark, cut in cream out of the brown slab; it is the one shape only this brand owns
+       steps: arch radius space-4 (40px), stroke space-2 (16px), inset space-5 (64px); square corners as in the slides -->
+  <rect class="brown" x="480" y="0" width="264" height="288"/>
+  <rect class="olive" x="744" y="0" width="216" height="152"/>
+  <rect class="deep" x="744" y="152" width="120" height="136"/>
+  <rect class="gold" x="864" y="152" width="96" height="64"/>
+  <rect class="beige" x="864" y="216" width="96" height="72"/>
+  <path class="arch" d="M544 288V168a40 40 0 0 1 80 0V288M624 168a40 40 0 0 1 80 0V288"/>
+</svg>
+<div class="txt">
+  <p class="name">BMidia<br><i>Digitais</i></p>
+  <p class="tag">A revolução do tráfego pago na confeitaria.</p>
+</div>
+</div>
+</body></html>
